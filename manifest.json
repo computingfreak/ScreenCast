@@ -1,0 +1,17 @@
+{
+  "name": "Screen Cast",
+  "description": "Convert current page to Canvas",
+  "version": "2.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["jquery.min.js","background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Get Canvas",
+    "default_icon" : "icons-38.png"
+  },
+   "manifest_version": 2
+}
