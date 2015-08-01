@@ -11,7 +11,7 @@
   },
   "browser_action": {
     "default_title": "Get Canvas",
-    "default_icon" : "icons-38.png"
+    "default_icon" : "phusionpassenger.png"
   },
    "manifest_version": 2
 }

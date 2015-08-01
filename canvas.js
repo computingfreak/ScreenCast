@@ -55,11 +55,10 @@ function setCanvasImage(url) {
        //drawScene();
     }
     finalImage.onload = function() {
-        theSelection = new Selection(ctx.canvas.width/2, ctx.canvas.height/2, 20, 20);
+        theSelection = new Selection(ctx.canvas.width/2, ctx.canvas.height/2, 777, 777);
         drawScene();
     }
     
-    //theSelection = new Selection(ctx.canvas.width/2, ctx.canvas.height/2, 20, 20);
     $("#canvas").mousemove(function(e) {
         var canvasOffset = $(canvas).offset();
         iMouseX = Math.floor(e.pageX - canvasOffset.left);

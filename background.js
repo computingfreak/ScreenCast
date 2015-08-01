@@ -6,8 +6,8 @@ chrome.browserAction.onClicked.addListener(function(tab) {
 
 
 	chrome.tabs.captureVisibleTab(function(screenshotUrl) {
-		var w = 950;
-        var h = 850;
+		var w = 1400;
+        var h = 900;
 		var left = (screen.width/2)-(w/2);
 		var top = (screen.height/2)-(h/2);
 		var tabUrl = chrome.extension.getURL('canvas.htm')
