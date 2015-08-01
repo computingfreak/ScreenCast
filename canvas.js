@@ -55,7 +55,7 @@ function setCanvasImage(url) {
        //drawScene();
     }
     finalImage.onload = function() {
-        theSelection = new Selection(ctx.canvas.width/2, ctx.canvas.height/2, 777, 777);
+        theSelection = new Selection(ctx.canvas.width/2, ctx.canvas.height/2, 77, 77);
         drawScene();
     }
     
